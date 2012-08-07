@@ -1,4 +1,12 @@
-PotLuck::Application.routes.draw do
+PotLuck::Application.routes.draw do   
+  
+  get "static_pages/home"
+  get "static_pages/how_it_works"
+  get "static_pages/about"
+  get "static_pages/blog"
+  get "static_pages/login"
+  
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
